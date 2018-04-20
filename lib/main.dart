@@ -105,9 +105,49 @@ import 'package:flutter/material.dart';
 //      home: new CenterDemo(),
 //    ));
 
-import 'package:flutter_demo/demo_location/location_alignment.dart';
-// 定位对齐——对齐
+//import 'package:flutter_demo/demo_location/location_alignment.dart';
+//// 定位对齐——对齐
+//void main() => runApp(new MaterialApp(
+//      title: 'Location',
+//      home: new AlignmentDemo(),
+//    ));
+
+//import 'package:flutter_demo/demo_location/location_padding.dart';
+//// 定位对齐——填充
+//void main() => runApp(new MaterialApp(
+//      title: 'Location',
+//      home: new PaddingDemo(),
+//    ));
+
+//import 'package:flutter_demo/demo_location/location_ratio.dart';
+//// 定位对齐——大小比例
+//void main() => runApp(new MaterialApp(
+//      title: 'Location',
+////      home: new SizedBoxDemo(),
+//      home: new AspectRatioDemo(),
+//    ));
+
+// ******************************** Demo Effect ********************************
+
+//import 'package:flutter_demo/demo_effect/effect_decoratedbox.dart';
+//// 绘画效果——装饰容器
+//void main() => runApp(new MaterialApp(
+//      title: 'effect',
+//      home: new DecoratedBoxDemo(),
+//    ));
+
+//import 'package:flutter_demo/demo_effect/effect_opacity.dart';
+//// 绘画效果——不透明度
+//void main() => runApp(new MaterialApp(
+//      title: 'effect',
+//      home: new OpacityDemo(),
+//    ));
+
+// ******************************** Demo Material ********************************
+
+import 'package:flutter_demo/demo_material/material_popupmenu.dart';
+// 质感设计——弹出菜单
 void main() => runApp(new MaterialApp(
-      title: 'Location',
-      home: new AlignmentDemo(),
+      title: 'effect',
+      home: new PopupMenuDemo(),
     ));
