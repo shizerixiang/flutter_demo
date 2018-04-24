@@ -145,9 +145,55 @@ import 'package:flutter/material.dart';
 
 // ******************************** Demo Material ********************************
 
-import 'package:flutter_demo/demo_material/material_popupmenu.dart';
-// 质感设计——弹出菜单
+//import 'package:flutter_demo/demo_material/material_popupmenu.dart';
+//// 质感设计——弹出菜单
+//void main() => runApp(new MaterialApp(
+//      title: 'material',
+//      home: new PopupMenuDemo(),
+//    ));
+
+//import 'package:flutter_demo/demo_material/material_bottom_navigation.dart';
+//// 质感设计——底部导航
+//void main() => runApp(new MaterialApp(
+//      title: 'material',
+//      home: new MenusDemo(),
+//    ));
+
+//import 'package:flutter_demo/demo_material/material_list.dart';
+//// 质感设计——列表项
+//void main() => runApp(new MaterialApp(
+//      title: 'material',
+//      home: new AchievementViewDemo(),
+//    ));
+
+//import 'package:flutter_demo/demo_material/material_linearprogressindicator.dart';
+//// 质感设计——进度条
+//void main() => runApp(new MaterialApp(
+//      title: 'material',
+//      home: new ProgressDemo(),
+//    ));
+
+import 'package:flutter_demo/demo_material/material_tab_layout.dart';
+// 质感设计——标签页
 void main() => runApp(new MaterialApp(
-      title: 'effect',
-      home: new PopupMenuDemo(),
+      title: 'material',
+      home: new ScrollableTabsDemo(),
     ));
+
+// ******************************** Demo Network ********************************
+
+//import 'package:flutter_demo/demo_network/network_async_json.dart';
+//// 网络处理——JSON 处理
+//void main() => runApp(new MaterialApp(
+//  title: 'Network',
+//  home: new JsonDemo(),
+//));
+
+// ******************************** Demo I/O ********************************
+
+//import 'package:flutter_demo/demo_io/io_read_write.dart';
+//// I/O操作——文件读写
+//void main() => runApp(new MaterialApp(
+//  title: 'I/O',
+//  home: new ReadAndWriteDemo(),
+//));

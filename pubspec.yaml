@@ -4,6 +4,7 @@ description: A demo of Flutter application.
 dependencies:
   flutter:
     sdk: flutter
+  path_provider: ^0.2.1+1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -25,8 +26,12 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+#  assets:
+#  - images/note_2_4_1.jpg
+
   assets:
-  - images/note_2_4_1.jpg
+  - assets/config.json
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
