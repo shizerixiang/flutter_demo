@@ -187,13 +187,13 @@ import 'package:flutter/material.dart';
 //      home: new MyApp(),
 //    ));
 
-import 'package:flutter_demo/demo_material/material_bottom_sheet.dart';
-// 质感设计——底部面板
-void main() => runApp(new MaterialApp(
-      title: 'material',
-//      home: new BottomSheetDemo(),
-      home: new ModalBottomSheetDemo(),
-    ));
+//import 'package:flutter_demo/demo_material/material_bottom_sheet.dart';
+//// 质感设计——底部面板
+//void main() => runApp(new MaterialApp(
+//      title: 'material',
+////      home: new BottomSheetDemo(),
+//      home: new ModalBottomSheetDemo(),
+//    ));
 
 // ******************************** Demo Network ********************************
 
@@ -212,3 +212,9 @@ void main() => runApp(new MaterialApp(
 //  title: 'I/O',
 //  home: new ReadAndWriteDemo(),
 //));
+
+// ******************************** Demo Anim ********************************
+
+import 'package:flutter_demo/demo_anim/anim_my_page.dart';
+// 动画效果——启动
+void main() => runApp(new MyPageDemo());
