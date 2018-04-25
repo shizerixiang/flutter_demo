@@ -173,11 +173,26 @@ import 'package:flutter/material.dart';
 //      home: new ProgressDemo(),
 //    ));
 
-import 'package:flutter_demo/demo_material/material_tab_layout.dart';
-// 质感设计——标签页
+//import 'package:flutter_demo/demo_material/material_tab_layout.dart';
+//// 质感设计——标签页
+//void main() => runApp(new MaterialApp(
+//      title: 'material',
+//      home: new ScrollableTabsDemo(),
+//    ));
+
+//import 'package:flutter_demo/demo_material/material_card.dart';
+//// 质感设计——卡片
+//void main() => runApp(new MaterialApp(
+//      title: 'material',
+//      home: new MyApp(),
+//    ));
+
+import 'package:flutter_demo/demo_material/material_bottom_sheet.dart';
+// 质感设计——底部面板
 void main() => runApp(new MaterialApp(
       title: 'material',
-      home: new ScrollableTabsDemo(),
+//      home: new BottomSheetDemo(),
+      home: new ModalBottomSheetDemo(),
     ));
 
 // ******************************** Demo Network ********************************
