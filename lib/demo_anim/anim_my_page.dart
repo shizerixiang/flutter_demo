@@ -26,7 +26,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
   final random = new Random();
   int dataSet = 50;
   AnimationController animation;
-  BarTween tween;
+  BarChartTween tween;
 
   @override
   void initState() {
@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
       duration: const Duration(milliseconds: 300),
       vsync: this,
     );
-    tween = new BarTween(new Bar(0.0), new Bar(50.0));
+    tween = new BarChartTween(new BarChart.empty(), new BarChart.random(random));
     // 正序播放动画
     animation.forward();
   }
@@ -49,9 +49,9 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
   /// 变换数据
   void changeData() {
     setState(() {
-      tween = new BarTween(
+      tween = new BarChartTween(
         tween.evaluate(animation),
-        new Bar(100.0 * random.nextDouble()),
+        new BarChart.random(random),
       );
       animation.forward(from: 0.0);
     });
